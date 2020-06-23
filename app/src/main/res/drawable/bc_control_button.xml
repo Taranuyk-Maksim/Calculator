@@ -3,14 +3,16 @@
     <item android:state_pressed="true">
         <shape>
             <gradient android:type="linear" android:endColor="#CC6666" android:startColor="#65787A" android:angle="90.0" />
-            <corners android:radius="4dp" />
+            <corners
+                android:radius="25dp"/>
             <padding android:left="20dip" android:right="20dip" android:top="7dip" android:bottom="7dip"/>
         </shape>
     </item>
     <item>
         <shape>
             <gradient android:type="linear" android:endColor="#EF7800" android:startColor="#B66C6C" android:angle="90.0" />
-            <corners android:radius="4dp" />
+            <corners
+            android:radius="25dp"/>
             <padding android:left="20dip" android:right="20dip" android:top="7dip" android:bottom="7dip"/>
         </shape>
     </item>

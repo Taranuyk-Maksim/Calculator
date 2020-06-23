@@ -6,4 +6,6 @@
 
 
     <color name="colorText">#262727</color>
+
+    <color name="colorBackground">#1E1E1E</color>
 </resources>
