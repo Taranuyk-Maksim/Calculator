@@ -1,0 +1,48 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Button">
+        <item name="android:radius">4dp</item>
+        <item name="android:background">@drawable/bc_number_button</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+
+    <style name="Button.Operands">
+        <item name="android:background">@drawable/bc_operands_button</item>
+        <item name="android:textColor">#ffff</item>
+    </style>
+
+    <style name="Button.Control">
+        <item name="android:background">@drawable/bc_control_button</item>
+    </style>
+
+    <style name="TextNumber">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="TextNumber.Input">
+        <item name="android:textSize">50sp</item>
+    </style>
+
+    <style name="TextNumber.Result">
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>
