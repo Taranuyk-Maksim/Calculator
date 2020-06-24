@@ -16,8 +16,14 @@
     <dimen name="input_text">55sp</dimen>
     <dimen name="output_text">25sp</dimen>
 
-    <dimen name="ten">10dp</dimen>
-    <dimen name="twenty">20dp</dimen>
-    <dimen name="thirty">30dp</dimen>
+    <dimen name="input_area_right_left_margin">10dp</dimen>
+    <dimen name="input_area_top_margin">20dp</dimen>
+    <dimen name="input_area_bottom_margin">30dp</dimen>
+
+    <dimen name="input_text_marginTop">30dp</dimen>
+
+    <dimen name="output_text_marginTop">10dp</dimen>
+    <dimen name="output_text_marginBottom">5dp</dimen>
+
 
 </resources>

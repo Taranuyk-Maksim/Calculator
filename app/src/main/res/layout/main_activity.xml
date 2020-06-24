@@ -81,7 +81,6 @@
         android:text="@string/zero"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline10"
-        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline7" />
 
@@ -255,27 +254,16 @@
         app:layout_constraintTop_toTopOf="@+id/guideline7" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/InputField"
         android:id="@+id/constraintLayout"
-        android:layout_width="@dimen/dimen_zero"
-        android:layout_height="@dimen/dimen_zero"
-        android:layout_marginStart="@dimen/ten"
-        android:layout_marginLeft="@dimen/ten"
-        android:layout_marginTop="@dimen/twenty"
-        android:layout_marginEnd="@dimen/ten"
-        android:layout_marginRight="@dimen/ten"
-        android:layout_marginBottom="@dimen/thirty"
-        android:background="@drawable/bc_number_button"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
-            android:id="@+id/inputText"
+            android:id="@+id/et_input"
             style="@style/TextNumber.Input"
-            android:layout_width="@dimen/dimen_zero"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/thirty"
             android:hint="@string/value_hint"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -284,17 +272,13 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/tv_output"
             style="@style/TextNumber.Result"
-            android:layout_width="@dimen/dimen_zero"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="5dp"
             android:hint="@string/value_hint"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/inputText" />
+            app:layout_constraintTop_toBottomOf="@+id/et_input" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.Guideline
@@ -302,7 +286,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.4" />
+        app:layout_constraintGuide_percent="0.36" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"

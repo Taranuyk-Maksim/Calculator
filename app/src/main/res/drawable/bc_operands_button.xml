@@ -3,8 +3,8 @@
     <item android:state_pressed="true">
         <shape>
             <gradient android:type="linear"
-                android:endColor="@color/endClick_color"
-                android:startColor="@color/startClick_color"
+                android:endColor="@color/end_click_color"
+                android:startColor="@color/start_click_color"
                 android:angle="90.0" />
             <corners
                 android:radius="@dimen/button_radius" />
@@ -13,8 +13,8 @@
     <item>
         <shape>
             <gradient android:type="linear"
-                android:endColor="@color/endOperands_button"
-                android:startColor="@color/startOperands_button"
+                android:endColor="@color/end_operands_button"
+                android:startColor="@color/start_operands_button"
                 android:angle="90.0" />
             <corners
                 android:radius="@dimen/button_radius" />

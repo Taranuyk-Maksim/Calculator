@@ -4,8 +4,8 @@
         <shape android:shape="rectangle">
             <corners android:radius="@dimen/control_buttons_radius" />
             <gradient android:type="linear"
-                android:endColor="@color/startControl_button"
-                android:startColor="@color/endControl_button"
+                android:endColor="@color/start_control_button"
+                android:startColor="@color/end_control_button"
                 android:angle="90" />
         </shape>
     </item>
@@ -13,8 +13,8 @@
         <shape android:shape="rectangle">
             <corners android:radius="@dimen/control_buttons_radius" />
             <gradient android:type="linear"
-                android:endColor="@color/endColor_number_button"
-                android:startColor="@color/startColor_number_button"
+                android:endColor="@color/end_color_number_button"
+                android:startColor="@color/start_color_number_button"
                 android:angle="90"/>
         </shape>
     </item>

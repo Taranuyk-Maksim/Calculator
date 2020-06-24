@@ -40,9 +40,29 @@
 
     <style name="TextNumber.Input">
         <item name="android:textSize">@dimen/input_text</item>
+        <item name="android:layout_width">@dimen/dimen_zero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/input_text_marginTop</item>
     </style>
 
     <style name="TextNumber.Result">
         <item name="android:textSize">@dimen/output_text</item>
+        <item name="android:layout_width">@dimen/dimen_zero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/output_text_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/output_text_marginBottom</item>
+
     </style>
+
+    <style name="InputField">
+        <item name="android:layout_width">@dimen/dimen_zero</item>
+        <item name="android:layout_height">@dimen/dimen_zero</item>
+        <item name="android:layout_marginTop">@dimen/input_area_top_margin</item>
+        <item name="android:layout_marginLeft">@dimen/input_area_right_left_margin</item>
+        <item name="android:layout_marginRight">@dimen/input_area_right_left_margin</item>
+        <item name="android:layout_marginBottom">@dimen/input_area_bottom_margin</item>
+        <item name="android:background">@drawable/bc_number_button</item>
+    </style>
+
+
 </resources>

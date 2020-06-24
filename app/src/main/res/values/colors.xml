@@ -7,20 +7,20 @@
 
     <color name="colorText">#262727</color>
 
-    <color name="colorBackground">#2C2C2C</color>
+    <color name="colorBackground">#1E1E1E</color>
 
     <!-- click color -->
-    <color name="startClick_color">#5E5A63</color>
-    <color name="endClick_color">#B5B5B5</color>
-    <!-- buttons numbers -->
-    <color name="startColor_number_button">#FEFEFF</color>
-    <color name="endColor_number_button">#8C8A8A</color>
-    <!-- buttons numbers -->
-    <color name="startControl_button">#F68019</color>
-    <color name="endControl_button">#EF977C</color>
-    <!-- buttons operands -->
-    <color name="startOperands_button">#222221</color>
-    <color name="endOperands_button">#0E0E0E</color>
+    <color name="start_click_color">#5E5A63</color>
+    <color name="end_click_color">#B5B5B5</color>
+    <!-- green button -->
+    <color name="start_color_number_button">#FEFEFF</color>
+    <color name="end_color_number_button">#8C8A8A</color>
+    <!-- orange button-->
+    <color name="start_control_button">#F68019</color>
+    <color name="end_control_button">#EF977C</color>
+    <!-- black button -->
+    <color name="start_operands_button">#222221</color>
+    <color name="end_operands_button">#0E0E0E</color>
     <!-- text colors -->
     <color name="black_text">#0C0C0C</color>
     <color name="white_text">#EAEAEA</color>
