@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true">
-        <shape>
-            <gradient android:type="linear" android:endColor="#CC6666" android:startColor="#65787A" android:angle="90.0" />
-            <corners
-                android:radius="25dp"/>
-            <padding android:left="20dip" android:right="20dip" android:top="7dip" android:bottom="7dip"/>
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/control_buttons_radius" />
+            <gradient android:type="linear"
+                android:endColor="@color/start_control_button"
+                android:startColor="@color/end_control_button"
+                android:angle="90" />
         </shape>
     </item>
-    <item>
-        <shape>
-            <gradient android:type="linear" android:endColor="#EF7800" android:startColor="#B66C6C" android:angle="90.0" />
-            <corners
-            android:radius="25dp"/>
-            <padding android:left="20dip" android:right="20dip" android:top="7dip" android:bottom="7dip"/>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/control_buttons_radius" />
+            <gradient android:type="linear"
+                android:endColor="@color/end_color_number_button"
+                android:startColor="@color/start_color_number_button"
+                android:angle="90"/>
         </shape>
     </item>
 </selector>

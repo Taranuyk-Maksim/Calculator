@@ -1,3 +1,29 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dimen_zero">0dp</dimen>
+
+    <dimen name="main_field_marginTop">30dp</dimen>
+
+    <dimen name="control_buttons_radius">1000dp</dimen>
+    <dimen name="control_buttons_padding">4dp</dimen>
+
+    <dimen name="gradient_angle">90dp</dimen>
+
+    <dimen name="button_radius">10dp</dimen>
+    <dimen name="button_margin">4dp</dimen>
+
+    <dimen name="button_text_size">20sp</dimen>
+    <dimen name="input_text">55sp</dimen>
+    <dimen name="output_text">25sp</dimen>
+
+    <dimen name="input_area_right_left_margin">10dp</dimen>
+    <dimen name="input_area_top_margin">20dp</dimen>
+    <dimen name="input_area_bottom_margin">30dp</dimen>
+
+    <dimen name="input_text_marginTop">30dp</dimen>
+
+    <dimen name="output_text_marginTop">10dp</dimen>
+    <dimen name="output_text_marginBottom">5dp</dimen>
+
+
 </resources>
