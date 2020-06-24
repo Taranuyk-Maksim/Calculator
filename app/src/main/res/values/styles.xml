@@ -17,15 +17,15 @@
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
     <style name="Button">
-        <item name="android:radius">4dp</item>
         <item name="android:background">@drawable/bc_number_button</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name="android:textColor">@color/black_text</item>
     </style>
 
     <style name="Button.Operands">
         <item name="android:background">@drawable/bc_operands_button</item>
-        <item name="android:textColor">#ffff</item>
+        <item name="android:textColor">@color/white_text</item>
     </style>
 
     <style name="Button.Control">
@@ -39,10 +39,10 @@
     </style>
 
     <style name="TextNumber.Input">
-        <item name="android:textSize">50sp</item>
+        <item name="android:textSize">@dimen/input_text</item>
     </style>
 
     <style name="TextNumber.Result">
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">@dimen/output_text</item>
     </style>
 </resources>

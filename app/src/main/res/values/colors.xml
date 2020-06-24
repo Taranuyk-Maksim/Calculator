@@ -7,7 +7,7 @@
 
     <color name="colorText">#262727</color>
 
-    <color name="colorBackground">#1E1E1E</color>
+    <color name="colorBackground">#2C2C2C</color>
 
     <!-- click color -->
     <color name="startClick_color">#5E5A63</color>
@@ -21,4 +21,7 @@
     <!-- buttons operands -->
     <color name="startOperands_button">#222221</color>
     <color name="endOperands_button">#0E0E0E</color>
+    <!-- text colors -->
+    <color name="black_text">#0C0C0C</color>
+    <color name="white_text">#EAEAEA</color>
 </resources>
