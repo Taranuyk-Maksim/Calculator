@@ -9,7 +9,7 @@ class PolishNotation {
     private var stackNumbers: Stack<Double> = Stack()
     private var stackOperations: Stack<String> = Stack()
 
-    //проверка явлиется ли строка числом
+    // check if the string is a number
     @Throws(NumberFormatException::class)
     private fun isDigit(s: String): Boolean {
         return try {
@@ -21,19 +21,19 @@ class PolishNotation {
     }
 
     /**
-     * функция принимает ArrayList
-     * пример 10+10-(10-12*20)
-     * возвращает результат Double
+     * function accepts an ArrayList
+     * example 10 + 10- (10-12 * 20)
+     * returns the result of Double
      */
     fun calculator(tok: ArrayList<String>): Double {
         try {
             for (token in tok) {
 
-                //если число добавляем его в стек.
+                //if the number is added to the stack.
                 if (isDigit(token)) {
                     stackNumbers.push(token.toDouble())
 
-                    // логика при обнаружении скобок
+                    //parenthesis detection logic
                 } else if (isBrackets(token)) {
                     if (token == "(") {
                         stackOperations.push(token)
@@ -52,7 +52,7 @@ class PolishNotation {
                         }
                     }
 
-                    //логика с операндами
+                    //logic with operands
                 } else {
                     if (stackOperations.isEmpty() || getPriority(stackOperations.peek()) < getPriority(
                             token
@@ -72,7 +72,7 @@ class PolishNotation {
                 }
             }
 
-            //после прохода по выражению выполняем операции в стеке
+            //after passing through the expression, we perform operations on the stack
             while (!stackOperations.isEmpty() && stackNumbers.size >= 1) {
                 try {
                     val b =
@@ -91,7 +91,7 @@ class PolishNotation {
         return 0.0
     }
 
-    //Возвращает приоритет математических операций
+    //Returns the priority of math operations
     private fun getPriority(tok: String): Int {
         when (tok) {
             "-", "+" -> return 1
@@ -101,12 +101,12 @@ class PolishNotation {
         return 0
     }
 
-    //является ли введенная строка скабками
+    //whether the entered string is brackets
     private fun isBrackets(s: String): Boolean {
         return s == ")" || s == "("
     }
 
-    //выполняем математические выражения
+    //performs math expressions
     private fun mathOperation(
         a: Double,
         b: Double,
