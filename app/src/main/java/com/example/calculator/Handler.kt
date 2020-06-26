@@ -5,9 +5,9 @@ import androidx.databinding.ObservableDouble
 
 class Handler {
 
-    private val exp = Expression()
-    private val pln = PolishNotation()
-    private var rez = ObservableDouble()
+    val exp = Expression()
+    val pln = PolishNotation()
+    var rez = ObservableDouble()
 
     //Click handler
     fun btnClick(view: View){
@@ -43,7 +43,6 @@ class Handler {
             R.id.btn_delete -> {
                 exp.delete()
             }
-
             R.id.btn_equals ->{
                 rez.set(pln.calculator(exp.getListExpression()))
             }

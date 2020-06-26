@@ -39,23 +39,22 @@
     </style>
 
     <style name="TextNumber.Input">
-        <item name="android:layout_marginLeft">@dimen/input_text_marginLeft</item>
-        <item name="android:layout_marginRight">@dimen/input_text_marginRight</item>
+        <item name="android:layout_marginLeft">@dimen/text_right_left_margin</item>
+        <item name="android:layout_marginRight">@dimen/text_right_left_margin</item>
         <item name="android:textSize">@dimen/input_text</item>
         <item name="android:layout_width">@dimen/dimen_zero</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/input_text_marginTop</item>
+        <item name="android:layout_marginTop">@dimen/input_text_margin_top</item>
     </style>
 
     <style name="TextNumber.Result">
-        <item name="android:layout_marginLeft">@dimen/output_text_marginLeft</item>
-        <item name="android:layout_marginRight">@dimen/output_text_marginRight</item>
+        <item name="android:layout_marginLeft">@dimen/text_right_left_margin</item>
+        <item name="android:layout_marginRight">@dimen/text_right_left_margin</item>
         <item name="android:textSize">@dimen/output_text</item>
         <item name="android:layout_width">@dimen/dimen_zero</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/output_text_marginTop</item>
-        <item name="android:layout_marginBottom">@dimen/output_text_marginBottom</item>
-
+        <item name="android:layout_marginTop">@dimen/output_text_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/text_right_left_margin</item>
     </style>
 
     <style name="InputField">

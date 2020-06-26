@@ -58,10 +58,13 @@ class Expression {
         }
     }
 
-
     fun getListExpression() : ArrayList<String>{
         parser(strExpression.toString())
         return expression
+    }
+
+    fun getExpression() : ObservableField<String>{
+        return obsExpression
     }
 
     //check if the string is a number
