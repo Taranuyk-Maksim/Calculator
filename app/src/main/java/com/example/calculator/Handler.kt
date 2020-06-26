@@ -46,7 +46,7 @@ class Handler {
             }
             R.id.btn_equals ->{
                 rez.set(pln.calculator(exp.getListExpression()))
-                Log.d("list2", exp.getListExpression().toString())
+                exp.getListExpression().clear()
             }
         }
     }

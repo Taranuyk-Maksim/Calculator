@@ -23,6 +23,7 @@ class Expression {
             obsExpression.set(strExpression.deleteCharAt(strExpression.lastIndex).toString())
         }
     }
+
     //Clean all items
     fun cleanAll(){
         expression.clear()
