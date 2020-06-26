@@ -19,7 +19,9 @@ class Expression {
 
     //Deletes the last item
     fun delete(){
-        obsExpression.set(strExpression.deleteCharAt(strExpression.lastIndex).toString())
+        if(!obsExpression.get().isNullOrEmpty()){
+            obsExpression.set(strExpression.deleteCharAt(strExpression.lastIndex).toString())
+        }
     }
     //Clean all items
     fun cleanAll(){

@@ -1,5 +1,6 @@
 package com.example.calculator
 
+import android.util.Log
 import android.view.View
 import androidx.databinding.ObservableDouble
 
@@ -45,6 +46,7 @@ class Handler {
             }
             R.id.btn_equals ->{
                 rez.set(pln.calculator(exp.getListExpression()))
+                Log.d("list2", exp.getListExpression().toString())
             }
         }
     }
