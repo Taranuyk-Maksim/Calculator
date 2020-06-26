@@ -9,7 +9,7 @@ class PolishNotation {
     private var stackNumbers: Stack<Double> = Stack()
     private var stackOperations: Stack<String> = Stack()
 
-    // check if the string is a number
+    //check if the string is a number
     @Throws(NumberFormatException::class)
     private fun isDigit(s: String): Boolean {
         return try {

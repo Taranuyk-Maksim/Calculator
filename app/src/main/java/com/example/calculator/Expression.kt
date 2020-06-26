@@ -11,13 +11,28 @@ class Expression {
     private var strExpression = StringBuilder()
     private var obsExpression = ObservableField<String>()
 
-
-
+    //Gets characters to convert them to StringBuilder
     fun setValue(str : String) {
         strExpression.append(str)
         obsExpression.set(strExpression.toString())
     }
 
+    //Deletes the last item
+    fun delete(){
+        obsExpression.set(strExpression.deleteCharAt(strExpression.lastIndex).toString())
+    }
+    //Clean all items
+    fun cleanAll(){
+        expression.clear()
+        strExpression.clear()
+        obsExpression.set("")
+    }
+
+    /**
+     * We need to split the string
+     * into tokens for counting.
+     */
+    //Converts a String to ArrayList
     private fun parser(str: String) {
 
         val buf = StringBuilder()
@@ -41,18 +56,15 @@ class Expression {
                 }
             }
         }
-        Log.v("list", strExpression.toString())
     }
+
 
     fun getListExpression() : ArrayList<String>{
         parser(strExpression.toString())
         return expression
     }
 
-    fun getExpression() : ObservableField<String>{
-
-        return obsExpression
-    }
+    //check if the string is a number
     @Throws(NumberFormatException::class)
     private fun isDigit(s: String): Boolean {
         return try {

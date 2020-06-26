@@ -1,21 +1,15 @@
 package com.example.calculator
 
-import android.util.Log
 import android.view.View
 import androidx.databinding.ObservableDouble
-import com.example.calculator.Expression
-import com.example.calculator.R
-import kotlinx.android.synthetic.main.main_activity.view.*
-import java.lang.Exception
 
 class Handler {
 
-    val exp = Expression()
-    val pln = PolishNotation()
+    private val exp = Expression()
+    private val pln = PolishNotation()
+    private var rez = ObservableDouble()
 
-    var rez = ObservableDouble()
-
-
+    //Click handler
     fun btnClick(view: View){
         when(view.id){
             R.id.btn_zero -> exp.setValue("0")
@@ -42,12 +36,17 @@ class Handler {
 
             R.id.btn_percent -> exp.setValue("%")
 
-            R.id.btn_equals ->{
-                rez.set(pln.calculator(exp.getListExpression()))
-                Log.d("equals", exp.getListExpression().toString())
+            R.id.btn_clean -> {
+                exp.cleanAll()
+                rez.set(0.0)
+            }
+            R.id.btn_delete -> {
+                exp.delete()
             }
 
-
+            R.id.btn_equals ->{
+                rez.set(pln.calculator(exp.getListExpression()))
+            }
         }
     }
 }

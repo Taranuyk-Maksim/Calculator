@@ -21,9 +21,13 @@
     <dimen name="input_area_bottom_margin">30dp</dimen>
 
     <dimen name="input_text_marginTop">30dp</dimen>
+    <dimen name="input_text_marginLeft">5dp</dimen>
+    <dimen name="input_text_marginRight">5dp</dimen>
 
     <dimen name="output_text_marginTop">10dp</dimen>
     <dimen name="output_text_marginBottom">5dp</dimen>
+    <dimen name="output_text_marginLeft">5dp</dimen>
+    <dimen name="output_text_marginRight">5dp</dimen>
 
 
 </resources>

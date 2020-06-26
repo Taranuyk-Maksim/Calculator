@@ -39,6 +39,8 @@
     </style>
 
     <style name="TextNumber.Input">
+        <item name="android:layout_marginLeft">@dimen/input_text_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/input_text_marginRight</item>
         <item name="android:textSize">@dimen/input_text</item>
         <item name="android:layout_width">@dimen/dimen_zero</item>
         <item name="android:layout_height">wrap_content</item>
@@ -46,6 +48,8 @@
     </style>
 
     <style name="TextNumber.Result">
+        <item name="android:layout_marginLeft">@dimen/output_text_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/output_text_marginRight</item>
         <item name="android:textSize">@dimen/output_text</item>
         <item name="android:layout_width">@dimen/dimen_zero</item>
         <item name="android:layout_height">wrap_content</item>
