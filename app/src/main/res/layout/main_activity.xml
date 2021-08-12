@@ -29,7 +29,6 @@
             style="@style/Button.Control"
             android:layout_width="@dimen/dimen_zero"
             android:onClick="@{(view) -> handler.btnClick(view)}"
-
             android:layout_height="@dimen/dimen_zero"
             android:text="@string/delete"
             app:layout_constraintBottom_toTopOf="@+id/guideline3"
@@ -68,7 +67,6 @@
             android:layout_width="@dimen/dimen_zero"
             android:layout_height="@dimen/dimen_zero"
             android:onClick="@{(view) -> handler.btnClick(view)}"
-
             android:text="@string/open_bracket"
             app:layout_constraintBottom_toTopOf="@+id/guideline4"
             app:layout_constraintEnd_toStartOf="@+id/guideline10"
@@ -82,7 +80,6 @@
             android:layout_height="@dimen/dimen_zero"
             android:text="@string/three"
             android:onClick="@{(view) -> handler.btnClick(view)}"
-
             app:layout_constraintBottom_toTopOf="@+id/guideline7"
             app:layout_constraintEnd_toStartOf="@+id/guideline11"
             app:layout_constraintStart_toStartOf="@+id/guideline10"
@@ -95,7 +92,6 @@
             android:layout_height="@dimen/dimen_zero"
             android:text="@string/zero"
             android:onClick="@{(view) -> handler.btnClick(view)}"
-
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/guideline10"
             app:layout_constraintStart_toStartOf="parent"
@@ -107,14 +103,12 @@
             android:layout_width="@dimen/dimen_zero"
             android:layout_height="@dimen/dimen_zero"
             android:onClick="@{(view) -> handler.btnClick(view)}"
-
             android:text="@string/clean"
             app:layout_constraintBottom_toTopOf="@+id/guideline3"
             app:layout_constraintDimensionRatio="1:1"
             app:layout_constraintEnd_toStartOf="@+id/guideline11"
             app:layout_constraintStart_toStartOf="@+id/guideline10"
-            app:layout_constraintTop_toTopOf="@+id/guideline2"
-            app:layout_constraintVertical_bias="0.428" />
+            app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
         <Button
             android:id="@+id/btn_plus"
@@ -123,7 +117,6 @@
             android:layout_height="@dimen/dimen_zero"
             android:text="@string/plus"
             android:onClick="@{(view) -> handler.btnClick(view)}"
-
             app:layout_constraintBottom_toTopOf="@+id/guideline6"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline11"
@@ -135,7 +128,6 @@
             android:layout_width="@dimen/dimen_zero"
             android:layout_height="@dimen/dimen_zero"
             android:onClick="@{(view) -> handler.btnClick(view)}"
-
             android:text="@string/nine"
             app:layout_constraintBottom_toTopOf="@+id/guideline5"
             app:layout_constraintEnd_toStartOf="@+id/guideline11"
@@ -149,7 +141,6 @@
             android:layout_height="@dimen/dimen_zero"
             android:text="@string/one"
             android:onClick="@{(view) -> handler.btnClick(view)}"
-
             app:layout_constraintBottom_toTopOf="@+id/guideline7"
             app:layout_constraintEnd_toStartOf="@+id/guideline9"
             app:layout_constraintStart_toStartOf="parent"
@@ -161,7 +152,6 @@
             android:layout_width="@dimen/dimen_zero"
             android:layout_height="@dimen/dimen_zero"
             android:onClick="@{(view) -> handler.btnClick(view)}"
-
             android:text="@string/close_bracket"
             app:layout_constraintBottom_toTopOf="@+id/guideline4"
             app:layout_constraintEnd_toStartOf="@+id/guideline11"
@@ -175,7 +165,6 @@
             android:layout_height="@dimen/dimen_zero"
             android:text="@string/minus"
             android:onClick="@{(view) -> handler.btnClick(view)}"
-
             app:layout_constraintBottom_toTopOf="@+id/guideline5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline11"
@@ -188,7 +177,6 @@
             android:layout_height="@dimen/dimen_zero"
             android:text="@string/four"
             android:onClick="@{(view) -> handler.btnClick(view)}"
-
             app:layout_constraintBottom_toTopOf="@+id/guideline6"
             app:layout_constraintEnd_toStartOf="@+id/guideline9"
             app:layout_constraintStart_toStartOf="parent"
@@ -201,7 +189,6 @@
             android:layout_height="@dimen/dimen_zero"
             android:text="@string/division"
             android:onClick="@{(view) -> handler.btnClick(view)}"
-
             app:layout_constraintBottom_toTopOf="@+id/guideline3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline11"
@@ -214,7 +201,6 @@
             android:layout_height="@dimen/dimen_zero"
             android:text="@string/two"
             android:onClick="@{(view) -> handler.btnClick(view)}"
-
             app:layout_constraintBottom_toTopOf="@+id/guideline7"
             app:layout_constraintEnd_toStartOf="@+id/guideline10"
             app:layout_constraintStart_toStartOf="@+id/guideline9"
@@ -227,7 +213,6 @@
             android:layout_height="@dimen/dimen_zero"
             android:text="@string/multiplication"
             android:onClick="@{(view) -> handler.btnClick(view)}"
-
             app:layout_constraintBottom_toTopOf="@+id/guideline4"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline11"
@@ -237,7 +222,6 @@
             android:id="@+id/btn_f"
             style="@style/Button.Control"
             android:onClick="@{(view) -> handler.btnClick(view)}"
-
             android:layout_width="@dimen/dimen_zero"
             android:layout_height="@dimen/dimen_zero"
             android:text="@string/f"
@@ -255,7 +239,6 @@
             android:layout_height="@dimen/dimen_zero"
             android:text="@string/five"
             android:onClick="@{(view) -> handler.btnClick(view)}"
-
             app:layout_constraintBottom_toTopOf="@+id/guideline6"
             app:layout_constraintEnd_toStartOf="@+id/guideline10"
             app:layout_constraintStart_toStartOf="@+id/guideline9"
@@ -264,7 +247,6 @@
         <Button
             android:id="@+id/btn_eight"
             style="@style/Button"
-
             android:layout_width="@dimen/dimen_zero"
             android:layout_height="@dimen/dimen_zero"
             android:onClick="@{(view) -> handler.btnClick(view)}"
@@ -281,7 +263,6 @@
             android:layout_height="@dimen/dimen_zero"
             android:text="@string/six"
             android:onClick="@{(view) -> handler.btnClick(view)}"
-
             app:layout_constraintBottom_toTopOf="@+id/guideline6"
             app:layout_constraintEnd_toStartOf="@+id/guideline11"
             app:layout_constraintStart_toStartOf="@+id/guideline10"
@@ -300,8 +281,8 @@
             app:layout_constraintTop_toTopOf="@+id/guideline7" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            style="@style/InputField"
             android:id="@+id/constraintLayout"
+            style="@style/InputField"
             app:layout_constraintBottom_toTopOf="@+id/guideline2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -312,10 +293,11 @@
                 style="@style/TextNumber.Input"
                 android:hint="@string/value_hint"
                 android:text="@{handler.exp.expression}"
-                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/guideline"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                />
 
             <TextView
                 android:id="@+id/tv_output"
@@ -325,8 +307,15 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/et_input"
-                app:layout_constraintVertical_bias="0.2" />
+                app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.7" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.Guideline
